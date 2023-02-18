@@ -3,7 +3,7 @@ import UIKit
 public protocol Coordinator {
     
     var navigationController: UINavigationController { get set }
-    var router: Router { get set }
+    var router: Router? { get set }
     
     func start()
     func present(viewController: UIViewController, animated: Bool)

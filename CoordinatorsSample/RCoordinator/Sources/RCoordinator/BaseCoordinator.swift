@@ -7,15 +7,15 @@
 
 import UIKit
 
-public class BaseCoordinator: Coordinator {
+extension Coordinator {
     
-    public var navigationController: UINavigationController
-    public var router: Router
+//    public var navigationController: UINavigationController
+//    public var router: Router
     
-    public init(navigationController: UINavigationController, router: Router) {
-        self.navigationController = navigationController
-        self.router = router
-    }
+//    public init(navigationController: UINavigationController, router: Router) {
+//        self.navigationController = navigationController
+//        self.router = router
+//    }
     
     public func start() {
         // This method should be Overrided
